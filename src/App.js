@@ -1,7 +1,7 @@
 import CommentBox from './components/CommentBox';
 import CommentDisplay from './components/CommentDisplay';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
