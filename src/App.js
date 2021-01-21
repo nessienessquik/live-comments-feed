@@ -29,9 +29,9 @@ function App() {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    console.log("comment updated");
-  }, [commentUpdate]);
+  // useEffect(() => {
+  //   console.log("comment updated");
+  // }, [commentUpdate]);
 
   // setCommentUpdate(true);
 

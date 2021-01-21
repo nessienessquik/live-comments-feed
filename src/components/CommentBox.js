@@ -6,8 +6,6 @@ import { Api } from "../api/index.js";
 function CommentBox(props) {
   const [inputs, setInputs] = useState({});
 
-  console.log(props.commentUpdate);
-
   const handleSubmit = (event) => {
     event.preventDefault();
 
@@ -32,8 +30,6 @@ function CommentBox(props) {
       ...inputs,
       [event.target.name]: event.target.value,
     }));
-
-    console.log(inputs);
   };
 
   return (
