@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+}
+
+.form-input {
+  margin: 5px;
+}
+
+.textarea {
+  height: auto;
+}
+
+.comment-container {
+  width: 350px;
+  border: 1px solid #000000;
+  padding: 0 10px;
+}
+
+.comment-poster {
+  font-weight: 600;
+}
