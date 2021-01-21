@@ -5,10 +5,19 @@
   "main": "server/index.js",
   "scripts": {
     "// TODO: Add your start script if you are using a front-end JS framework": "",
-    "start": "cd client && npm start",
+    "start": "react-scripts start",
     "server": "nodemon server",
     "// TODO: You can remove concurrently if you're not using a front-end JS framework": "",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start\""
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
   },
   "devDependencies": {
     "body-parser": "1.18.3",
@@ -20,10 +29,22 @@
   "keywords": [],
   "description": "",
   "proxy": "http://localhost:3001",
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  }
 }

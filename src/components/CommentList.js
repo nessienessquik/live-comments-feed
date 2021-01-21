@@ -1,19 +1,13 @@
 import '../App.css';
 import React, { useState, useEffect } from 'react';
+import {Api} from '../api/index.js';
 
 function CommentList() {
 
   useEffect(() => {
-    fetch('http://localhost:3001/getcomments')
-    .then((data) => {
-      console.log(data);
-      // this.setState({ data });
-    }, (error) => {
-      if (error) {
-        // handle error here
-        console.log(error);
-      }
-    });
+
+    console.log(Api);
+
   });
 
   return (

@@ -1,5 +1,5 @@
 import CommentBox from './components/CommentBox';
-import CommentDisplay from './components/CommentList';
+import CommentList from './components/CommentList';
 
 import './App.css';
 
