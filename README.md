@@ -1,3 +1,12 @@
+# Instructions
+* Clone this repo
+* In the root directory, run:
+
+```
+$ npm install
+$ npm run dev
+```
+
 # Front-end Choose Your Own Adventure Take-Home
 
 Design and build a comments feed that displays all comments and notifies a user in real-time when new comments are added.
